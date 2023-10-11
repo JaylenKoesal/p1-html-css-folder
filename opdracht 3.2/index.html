@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUI</title>
+</head>
+<body>
+    <h1>Boeken TUI</h1> <br>
+     
+    <table>
+        <form action="Not valid">
+
+    <tr> <label for="Voornaam">Voornaam </label> 
+        <input type="text" id="Voornaam" name="Voornaam" pattern="[A-Za-z]+" title="Geen Cijfers" required>
+        
+    </tr> <br><br>
+
+    <tr> <label for="Achternaam">Achternaam </label> 
+        <input type="text" id="Achternaam" name="Achternaam" pattern="[A-Za-z]" title="Geen Cijfers" required>
+    </tr><br><br>
+
+    <tr> <label for="Man">Man</label>
+        <input type="radio" name="Geslacht" id="Man" value="man" checked required>
+
+        <label for="Vrouw">Vrouw</label>
+        <input type="radio" name="Geslacht" id="Vrouw" value="Vrouw" required>
+        
+        
+        
+    </tr><br><br>
+
+    <tr>
+        <label for="Straat">Straat </label>
+    <input type="text" id="Straat" name="Straat" required>    
+    </tr><br><br>
+
+    <tr>
+        <label for="Huisnummer">Huisnummer </label>
+    <input type="text" id="Huisnummer" name="Huisnummer" required>    
+    </tr><br><br>
+
+    <tr>
+        <label for="Poscode">Poscode </label>
+    <input type="text" id="Poscode" name="Poscode" required>    
+    </tr><br><br>
+
+    <tr>
+        <label for="Stad">Stad </label>
+    <input type="Stad" id="Stad" name="Stad" required>    
+    </tr><br><br>
+
+    <tr>
+        <label for="Land">Land </label>
+    <input type="Land" id="Land" name="Land" required>    
+    </tr><br><br>
+
+    <tr> <label for="Bsn-nummer">Bsn-nummer </label>
+        <input type="text" id="bsn-nummer" name="bsn-nummer" pattern="\d{9}$" maxlength="9" title="9 cijfers" required>
+    </tr><br><br>
+
+    <tr>
+        <label for="VakantieLand">Vakantie Land </label><br>
+        <input type="radio" name="opties" id="Mexico" required>Mexico<br>
+        <input type="radio" name="opties" id="Italie" required>Italie<br>
+        <input type="radio" name="opties" id="Japan" required>Japan<br>
+        <input type="radio" name="opties" id="Zuid-africa" required>Zuid-africa<br>
+    </tr><br>
+
+    <tr> <label for="datum">Vertrektijd </label>
+        <input type="date" name="datum" id="datum" min="2023-10-05" required>
+     <br><br>
+
+    <label for="datum">Terugkomst </label>
+    <input type="date" name="datum" id="datum" min="2023-10-05" required> 
+    </tr><br><br>
+
+    <tr> <label for="reisgenoten">Reisgenoten </label>
+        <input type="number" name="Reisgenoten" name="Reisgenoten" pattern="\d{4}$" min="1" max="4">
+    </tr>
+
+    <tr>
+        <br><br><button type="submit">Boek nu</button>
+    </tr><br><br>
+
+    <tr> <label for="E-mail">E-mail </label>
+        <input type="email" name="email" id="email" required>
+    </tr><br><br>
+
+    <tr> <label for="wachtwoord">Wachtwoord </label>
+        <input type="password"  required>
+    </tr>
+
+</form>
+    </table>
+    
+</body>
+</html>

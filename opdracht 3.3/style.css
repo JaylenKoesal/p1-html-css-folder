@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 90px;
+}
+
+table{
+    width: 100%;
+    
+    font-family: 'gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+td{
+    text-align: center;
+}
+
+th{
+    color: red;
+}
